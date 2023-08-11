@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    text-shadow: 15px 15px 20px black;
+    
+}
+
+    
+
+.banner{
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('./imagens/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.texto .titulo{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+.texto .sub_titulo{
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 600;
+}
+.texto .botoes{
+    margin-top: 30px;
+}
+.texto .botoes button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+.texto .botoes button.n-overlay{
+    color: #FFF;
+    background: none;
+    border: 2px solid #FFF;
+}
+.texto .botoes button.n-overlay:hover{
+    color: black;
+    background-color: #FFF;
+}
+.texto .botoes button.overlay{
+    background: #FFF;
+    color: black;
+    animation: vibrar 0.5s ease-in-out infinite both;
+    
+}
+
+
+.alt {
+    padding: 8px 8px;
+    width: 50px;
+    color: #FFF;
+    background-color: rgb(184, 115, 32);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer
+    
+}
+alt:hover{
+    background: rgb(216, 124, 90);
+    transition: background 1s 
+}
+
+.exc {
+    padding: 8px 8px;
+    width: 50px;
+    color: #FFF;
+    background-color: rgb(161, 29, 29);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer
+    
+}
+exc:hover{
+    background: rgb(153, 49, 49);
+    transition: background 1s 
+}
+.confirm {
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('./imagens/imag.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.cad:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    
+    height: 100vh;
+    background-image: url('./imagens/cad.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.4); 
+    mix-blend-mode: overlay; 
+  }
+
+  .cards{
+    margin: 0 auto;
+  }
+
+  .btn{
+   margin: 0 auto;
+  }
+
+ .fundo{
+    background-image: linear-gradient(to right, rgba(8, 8, 8, 0.849) , rgba(22, 16, 9, 0.836));
+ }
+  
